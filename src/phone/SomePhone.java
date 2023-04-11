@@ -14,7 +14,6 @@ public class SomePhone extends AbstractPhone {
         System.out.println("Open new connection...");
     }
 
-
     @Override
     public void call(int outputNumber) {
         openConnection();
