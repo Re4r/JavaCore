@@ -7,11 +7,11 @@ public class CellPhone extends WirelessPhone {
 
     @Override
     public void call(int outputNumber) {
-
+        System.out.println("Calling to number... " + outputNumber);
     }
 
     @Override
     public void ring(int inputNumber) {
-
+        System.out.println("Incoming call from number: " + inputNumber);
     }
 }
