@@ -12,4 +12,14 @@ public class SmartPhone extends CellPhone {
     public void install(String program) {
         System.out.println("Install " + program + " for " + operationSystem);
     }
+
+    @Override
+    public void call(int outputNumber) {
+        super.call(outputNumber);
+    }
+
+    @Override
+    public void ring(int inputNumber) {
+        super.ring(inputNumber);
+    }
 }
