@@ -1,4 +1,4 @@
-package lection01.phone;
+package level01.phone;
 
 public class SomePhone extends AbstractPhone {
 

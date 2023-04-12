@@ -1,4 +1,4 @@
-package lection01.phone;
+package level01.phone;
 
 public class CellPhone extends WirelessPhone {
     public CellPhone(int year, int workTime) {
