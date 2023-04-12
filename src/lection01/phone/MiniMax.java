@@ -1,5 +1,7 @@
 package lection01.phone;
 
+import java.util.Arrays;
+
 public class MiniMax {
     public static void main(String[] args) {
         int[] data = new int[]{1, 2, 3, 5, -2, -8, 0, 77, 5, 5};
@@ -15,7 +17,8 @@ public class MiniMax {
             return new Pair(null, null);
         }
 
-        // напишите тут ваш код
+        int min = Arrays.stream(inputArray).min().getAsInt();
+        int max = Arrays.stream(inputArray).max().getAsInt();
 
         return new Pair(0, 0);
     }
