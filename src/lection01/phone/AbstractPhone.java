@@ -1,4 +1,4 @@
-package phone;
+package lection01.phone;
 
 public abstract class AbstractPhone {
     private int year;

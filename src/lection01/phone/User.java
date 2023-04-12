@@ -1,4 +1,4 @@
-package phone;
+package lection01.phone;
 
 public class User {
 
