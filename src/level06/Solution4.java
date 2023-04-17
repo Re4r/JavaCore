@@ -9,6 +9,8 @@ public class Solution4 {
 
         Thread violin = new Thread(new Violin("Player"));
         violin.start();
+        Thread violin2 = new Thread(new Violin("Player2"));
+        violin2.start();
     }
 
     public static void sleepNSeconds(int n) {
